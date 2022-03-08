@@ -1,0 +1,53 @@
+main{
+    display:flex;
+}
+header{
+    background-color:darkseagreen;
+    text-align: center;
+    padding-top: 20px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header nav {
+    background-color: black;
+    height: 30px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 15px;
+}
+li{
+    padding-top: 5px;
+    margin-right:20px ;
+    color: white;
+}
+footer{
+    text-align: center;
+    height: 50px;
+    padding-top: 15px;
+    background-color:darkseagreen;
+}
+.aboutSection{
+    padding: 15px;
+    background-color: gainsboro;
+    width:40%;
+
+}
+.blogSection{
+    padding: 15px;
+    background-color: white;
+}
+p{
+    margin-left: 0px;
+    padding-right:0px ;
+}
+@media screen and (max-width:700px){
+    main{
+        display:flex;
+        flex-direction: column;
+    }
+    
+}
