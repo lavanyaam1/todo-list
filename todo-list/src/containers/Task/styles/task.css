@@ -1,0 +1,37 @@
+.task-container{
+    height:770px;
+    width:100%;
+    padding-top: 100px;
+    background: linear-gradient(0deg, #5D8BF4 50%,#051367 50%);
+}
+.createtask-btn{
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+    font-weight: bolder;
+    color: white;
+    float: right;
+    padding-right: 20px;
+    border: none;
+    background-color: #051367;
+}
+.taskMain {
+    width:1200px;
+    height:700px;
+    margin-left:200px;
+    margin-top:50px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+.task{
+    width:1000px;
+    height:500px;
+    background-color: #DFF6FF;;
+    margin-top:20px;
+    margin-left:100px;
+    padding-top: 40px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

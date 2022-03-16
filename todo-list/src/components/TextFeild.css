@@ -1,0 +1,11 @@
+.text{
+    padding-top: 10px;
+    font-size: 20px;
+}
+input[type=text] {
+    width: 90%;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 3px solid ;
+}
